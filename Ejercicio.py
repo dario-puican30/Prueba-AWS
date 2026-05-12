@@ -113,7 +113,7 @@ def calcular_sueldo_despues_n_anos(tipo_trabajador, sueldo_inicial, n_anos):
     return sueldo_actual
 
 def main():
-    print(calcular_sueldo_despues_n_anos("g", 100000, 5))
+    print(calcular_sueldo_despues_n_anos("g", 10, 5))
     
 main()
 
